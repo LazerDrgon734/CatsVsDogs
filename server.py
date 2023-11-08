@@ -6,7 +6,7 @@ st.write("Cat vs. Dog Classifier")
 st.text("Built by Jayden Chong")
 
 
-def label_function(f): return f[0].isupper()
+def label_func(f): return f[0].isupper()
 
 
 model = load_learner('my_model.pkl')
